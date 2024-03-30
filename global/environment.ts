@@ -9,5 +9,5 @@ import dotenv from 'dotenv';
 dotenv.config()
 
 //Creación de las variables de entorno que se utilizaran en otras partes del código
-export const SERVER_PORT = Number(process.env.PORT)
+export const SERVER_PORT = Number(process.env.PORT ? process.env.PORT : 3000)
 export const AES_KEY = process.env.AES_KEY

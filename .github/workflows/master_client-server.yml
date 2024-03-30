@@ -68,6 +68,4 @@ jobs:
           app-name: 'client-server'
           slot-name: 'Production'
           package: .
-      - name: 'Run'
-        run: node ./dist
           

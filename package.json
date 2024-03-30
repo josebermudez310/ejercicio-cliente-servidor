@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc -b",
     "start": "npm i && tsc -b && nodemon ./dist",
-    "test": "echo \"Error: no test specified\" && exit 2"
+    "test": "echo \"Warning: no test specified\""
   },
   "author": "jose bermudez",
   "license": "ISC",

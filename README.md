@@ -13,7 +13,7 @@ Luego seguir los siguientes pasos:
 
 - Descargar el repositorio
 - Crear el archivo .env y agregar las siguiente variables SERVER_PORT el puerto en el que quiere que corra el servidor y AES_KEY una llave AES 256 en base 64 puede utilizar la siguiente: jBGdm3hT24Ik4Ei7uoYYSO76enFES2syCabrQO9YMas= pero es recomendable crear una nueva por seguridad.
-- Luego en una terminar ejecutar el siguiente comando: npm run start
+- Luego en una terminal ejecutar el siguiente comando: npm run start
 - Por ultimo realizar un curl desde cmd de la siguiente manera: curl --location --request GET http://localhost:{port}/api/client-server/status reemplzando {port} por el puerto especificado en el .env SERVER_PORT. Una vez realizado el curl debe responder "status ok".
 
 Ya tienes instalado y funcionando el servidor!

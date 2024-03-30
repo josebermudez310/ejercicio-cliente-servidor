@@ -69,5 +69,5 @@ jobs:
           slot-name: 'Production'
           package: .
       - name: 'Run'
-        run: npm run start
+        run: nodemon ./dist
           

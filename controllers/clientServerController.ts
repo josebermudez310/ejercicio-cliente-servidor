@@ -22,7 +22,7 @@ const getGreeting = (req: Request, res: Response) => {
     const name = req.body.name ? req.body.name : NAME_NO_SEND;
     const message = (name == NAME_NO_SEND) ? "Hola, ¿Cómo estás?, ¿Cuál es tu nombre?" : `Hola ${name} un gusto saludarte, ¿Cómo estás?`;
 
-    res.send(message)
+    res.send({message})
     .status(200)
 }
 

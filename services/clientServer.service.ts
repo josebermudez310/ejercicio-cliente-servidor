@@ -51,7 +51,7 @@ const decodeMessageEithAesCbc = (req: Request, res: Response) => {
         res.send({decryptedMessage})
         .status(200)
     } catch(e) {
-        res.send('Error al desencriptar, por favor valida los datos enviados')
+        res.send({error: 'Error al desencriptar, por favor valida los datos enviados'})
         .status(400)
     }
 }

@@ -13,7 +13,7 @@ const NAME_NO_SEND = 'name no send'
 
 //Método para la obtención del estatus del servidor
 const getStatus = (req: Request, res: Response) => {
-    res.send('status ok')
+    res.send({status: 'ok'})
     .status(200);
 }
 
